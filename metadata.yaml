@@ -1,6 +1,6 @@
 schema: v0.0.0
 info:
-  name: "Palestine Database"
+  description: "Palestine Database"
   version: v0.0.0
 sha256:
   companies: 931d9349bc7ee3c52dfa04daa863b17effc81c18d245b1b265e48b328848b6c9
