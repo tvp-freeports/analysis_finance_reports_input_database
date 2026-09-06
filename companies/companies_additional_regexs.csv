@@ -4,13 +4,14 @@ AP Møller Mærsk,\bmoller
 Ackerstein Industries,\backr
 Actividades de Construcción y Servicios,\bacs
 Ahava Dead Sea Laboratories,dead.*sea.*laboratories
+Airbnb,\babnb
 Alphabet,google
 Amir Marketing and Investments,\bamrk
 Ashtrom Residential Development,ashdar.*(building|company)
 Bank Hapoalim,\bbkhyy
 Bank Hapoalim,\bbkhpy
 Bank Leumi,\bblmif
-"Bar-Amana Buildings Construction and Development",binyanei
+Bar-Amana Buildings Construction and Development,binyanei
 Booking Holdings,\bbkng
 C Mer Industries,\bcmer
 Cafe Cafe Israel,\breshet
@@ -99,3 +100,5 @@ Yacobi Brothers Group,\byaco
 Yes TV and Communications Services,\bsatellite.*services
 ZMH Hammerman,hammerman
 Zriha Hlavin Industries,hlavin
+Rami Levy Hashikma,rami.*levy.*communic
+TripAdvisor,\btrip\b(?!\.)

@@ -7,7 +7,7 @@ Adm Do Brasil,,
 AeroVironment,,
 Agrex Do Brasil S.A.,,
 Ahava Dead Sea Laboratories,ahava,ahava
-Airbnb,,\babnb
+Airbnb,,\bairbnb\b
 Alon Blue Square,alon,\balon
 Alphabet,alphabet,\balphabet\b
 Alstom,,
@@ -81,7 +81,7 @@ Dana Petroleum,dana,\bdana.*petr
 Danya Cebus,danya,danya
 Davidov Garages,davidov,davidov
 Day & Zimmerman,day and zimm,\bday.*and.*zimm
-Billiards,,chish
+Billiards,,billiards
 Delek Group,delek,delek
 Delek Israel Fuel Co,delek israel,delek.*(israel|fuel)
 Dell Technologies,dell,\bdell.*technologies
@@ -99,7 +99,7 @@ Elbit Systems,elbit,\belbit\b
 Elco Ltd,elco,\belco
 Electra Afikim,afikim,afikim
 Electra Group,electra,\belectra
-Electricity Production and Renewable Energy Systems Ltd,electricity,\bepr.*(energy|systems)
+Electricity Production and Renewable Energy Systems Ltd,electricity,\bpr.*(energy|systems)
 Elyakim Ben-Ari,elyakim,elyakim
 Engelhart,,
 Eni S.p.A,eni,\beni.*spa
@@ -128,7 +128,7 @@ Hadar Group,hadar,hadar
 Hadiklaim Ltd,hadiklaim,hadiklaim
 Haim Zaken Construction & Investments,haim zaken,haim.*zaken|zaken.*haim
 Hamat Group,hamat,hamat
-Hangzhou Hik-vision Digital Technology Co,hangzhou hik vision,\bhangzhou hikvision\b
+Hangzhou Hik-vision Digital Technology Co,hangzhou hik vision,\bhangzhou hik ?vision\b
 Hanson Israel Ltd,hanson,hanson.*israel
 Harsa Studio Sanitaryware Manufacturers,harsa,harsa.*(studio|sanitaryware|manufacturers)
 HD Hyundai,hyundai,^(?!.*(heavy|indust)).*hyundai
@@ -221,7 +221,7 @@ Powergen Solar,powergen,powergen
 Proffimat Ltd,proffimat,proffimat
 Rafael Advanced Defence Systems,rafael,\brafael.*(advanced|defence|systems)
 Rami Levy Chain Stores Hashikma Marketing,rami levy,^(?!.*communic).*rami.*levy
-Rami Levy Hashikma,rami levy,rami.*levy.*communic
+Rami Levy Hashikma,rami levy,rami.*levy.*hashikma
 Impact Property Development,impact property,impact.*property
 RENK Group,renk,\brenk\b
 Rolls-Royce Holdings,royce,\brolls.*royce
@@ -238,7 +238,7 @@ Shikun & Binui Solel Boneh Infrastructure,shikun,shikun.*(solel|boneh|infrastruc
 Shikun & Binui,shikun,^(?!.*(solel|boneh|infrastructure)).*shikun
 Shlomo Cohen Construction Co,shlomo,shlomo.*constr
 Shoham Engineering and Development,shoham,shoham.*(engine|develop)
-Shufersal,,\bshuff
+Shufersal,,\bshuff?ersal
 Siemens,,\bsiemens\b
 Sociedad Espanola De Montajes Industriales,sociedad espanola,sociedad.*espanola
 Sonol Israel,sonol,sonol
@@ -252,14 +252,14 @@ Tahal Group,tahal,tahal.*(group|intern)
 American Israeli Gas Corp,american israeli,american.*israeli
 Boeing,,
 The Caisse de dépôt et placement du Québec,caisse de,\bcaisse de\b
-The Coca-Cola Company,coca,coca-?cola (co\.?)?
+The Coca-Cola Company,coca,coca cola (co\.?)?
 ThyssenKrupp,thyssen,thyssen
 TKH Group,,
 Tnuva Central Cooperative for the Marketing of Agricultural Produce in Israel,tnuva,\btnuva\b
 Total Energies,total,\btotal.*energies
 Toyota Motor,toyota,toyota
 Traton SE,traton,\btraton\b
-TripAdvisor,trip,\btrip\b(?!\.)
+TripAdvisor,trip,\btripadvisor\b
 TUI AG,,
 Twitoplast,,
 Unikowsky Maoz,unikowsky,unikowsky
