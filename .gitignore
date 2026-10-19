@@ -4,3 +4,6 @@ AGENTS.md
 targets/
 agent-memory/
 CLAUDE.md
+
+# Measurements written by the CI commands (see ci.yaml)
+/reports/

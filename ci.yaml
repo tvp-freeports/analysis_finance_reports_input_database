@@ -1,0 +1,31 @@
+# How this repository is gated. The same file, the same name and the same syntax in every
+# freeports repository, so that the roles of the branches read the same everywhere.
+#
+# `metadata.yaml` says what this database *is* — its description, its version, and the two
+# fingerprints `sha256.companies` and `sha256.lists`. This file says how it is *gated*.
+#
+# An input database has no test suite of its own, so almost nothing here is a number. What the
+# commit hook enforces is the fingerprint rule: when the contents of `companies/` or `lists/`
+# move, `info.version` in `metadata.yaml` must move with them, and the hook proposes the bump —
+# a change under `lists/` is a minor bump, a change under `companies/` a major one, because
+# `companies/` decides what *matches* while `lists/` only decides the *association*.
+#
+#   branch class   --branch-class prod   FREEPORTS_CI_BRANCH_CLASS
+#
+# `freeports-dev branch-class` prints the class of the branch you are on and the rule that
+# produced it. It is the first thing to run when a commit hook does something unexpected.
+
+branches:
+  # A fingerprint that moved without a version bump refuses the commit here.
+  prod: [main, master, "release/*"]
+  # The bump is proposed and, declined or unanswerable, warned about — never refused.
+  dev: [dev, "list/*"]
+  # The hook does nothing at all.
+  off: [experimental, "wip/*", "spike/*"]
+  # Anything unlisted. `dev` unless said otherwise: a branch nobody classified is not production.
+  default: dev
+
+keyserver: https://keys.openpgp.org
+
+# No thresholds. A database carries no test suite, no linted source and no methodology grants, so
+# there is no figure here to hold to a minimum — the gate is the fingerprint rule above.
